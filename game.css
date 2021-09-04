@@ -1,0 +1,96 @@
+body{
+ background-color:blanchedalmond;
+}
+
+.row{
+ text-align: center;
+}
+
+.button {
+ width: 150px;
+ height: 150px;
+}
+
+#tictactoe{
+  font-size: 70px;
+  text-align: center;
+  font-family:cursive;
+  color:darkgreen;
+}
+
+.button-holder{
+ text-align: center;
+}
+
+#button{
+ width: 150px;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: blanchedalmond;
+}
+
+.grid-container2{
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: blanchedalmond;
+  border-color: white;
+}
+ 
+#turnx {
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  font-family: fantasy;
+  text-align: center;
+  height: 120px;
+  width: 120px;
+}
+
+#turno {
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  font-family: fantasy;
+  text-align: center;
+  height: 120px;
+  width: 120px;
+}
+
+ .grid-container{
+position:absolute;
+left: 350px;
+top: 100px;
+}
+
+.grid-container2{
+position: absolute;
+right:359px;
+top: 100px;
+}
+
+#X{
+position: absolute;
+top: 65px;
+left: 360px;
+font-family: cursive;
+}
+
+#O{
+position: absolute;
+top: 65px;
+right: 360px;
+font-family:cursive;
+}
+
+#winner {
+font-size: 80px;
+font-family: cursive;
+text-align: center;
+color: dodgerblue;
+}
+
+
+
